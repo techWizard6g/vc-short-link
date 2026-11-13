@@ -1,0 +1,165 @@
+body, html{
+    margin: 0
+}
+
+.title{
+    color:white;
+    font-family: "FreightBig W03 Book"; 
+    margin: 0px
+}
+
+.banner {
+   Width:100%;
+   background-position: center;
+   background-repeat: no-repeat;
+   background-size: cover;
+   background-position: center 40%;
+   position: relative;
+   padding-top: 13rem;
+   padding-bottom: 3rem;
+   box-sizing: border-box;
+   background-image: url("hudson_valley.jpg")
+}
+.titles{
+    color:whitesmoke;
+    font-family: "FreightBig W03 Book","Georgia","Times","Times New Roman",serif;
+    margin: 0px;
+    font-size: 2.25rem;
+    font-weight: 400;
+}
+.regular_text{
+    color:whitesmoke;
+    font-family: "Source Sans Variable","acumin-pro","Helvetica Neue","Helvetica","Arial",sans-serif,"Helvetica Neue","Helvetica","Arial",sans-serif;
+    margin: 0px;
+    font-weight: 300;
+}
+.box{
+    display: flex;
+    width: fit-content;
+    height: fit-content;
+    padding: 10px;
+    left: 1rem;
+    top: 0;
+    padding-left: 15px;
+    padding-right: 15px;
+    background-color: #951829;
+    color: white;
+    font-family: "FreightBig W03 Book"; 
+    position: absolute
+}
+.banner_box{
+    position: relative;
+    display: flex;
+    flex-direction: column;
+    min-width: 60%;
+    max-width: 80%;
+    left: 3rem;
+    height: fit-content;
+    padding: 10px;
+    background-color:rgba(0,0,0,0.7);
+    font-size: 1rem;
+    line-height: 1.6;
+    text-align: left;
+    font-family: "Source Sans Variable","acumin-pro","Helvetica Neue","Helvetica","Arial",sans-serif,"Helvetica Neue","Helvetica","Arial",sans-serif;
+}
+.linear-text-gradient {
+    background: linear-gradient(135deg,#641A2B 0%,#ED1C24 70%);
+    -webkit-background-clip: text;
+    font-family: "Freight Big Pro"; 
+    font-size: 2rem;
+    font-weight: 400;
+    background-clip: text;
+    color: transparent;
+    text-align: center;
+}
+
+.below-banner{
+    position: static;
+    padding: 10px;
+    background-color: #FFFFFE;
+    color: black;
+    margin: 0;
+    font-family: "Source Sans Variable","acumin-pro","Helvetica Neue","Helvetica","Arial",sans-serif,"Helvetica Neue","Helvetica","Arial",sans-serif;
+}
+.form-and-info{
+    overflow: auto;
+}
+
+input {
+  width: 100%;
+  padding: 12px;
+  margin: 10px 0;
+  box-sizing: border-box;
+  border-radius: 0px;
+  border: 0px transparent;
+  font-family: "Source Sans Variable","acumin-pro","Helvetica Neue","Helvetica","Arial",sans-serif,"Helvetica Neue","Helvetica","Arial",sans-serif;
+}
+
+.form1{
+    font-family: "Source Sans Variable","acumin-pro","Helvetica Neue","Helvetica","Arial",sans-serif,"Helvetica Neue","Helvetica","Arial",sans-serif;
+    background-color: #e5e5e5;
+    float: left;
+    width: 23%;
+    padding: 1%;
+    font-size: 1rem;
+    font-variation-settings: "wght" 360;
+    line-height: 1.3;
+    margin-top: 7px;
+    height: 5rem;
+}
+.form2{
+    font-family: "Source Sans Variable","acumin-pro","Helvetica Neue","Helvetica","Arial",sans-serif,"Helvetica Neue","Helvetica","Arial",sans-serif;
+    background-color: #e5e5e5;
+    float: left;
+    width: 23%;
+    padding: 1%;
+    font-size: 1rem;
+    font-variation-settings: "wght" 360;
+    line-height: 1.3;
+    margin-top: 7px;
+    height: 5rem;
+}
+.form3{
+    font-family: "Source Sans Variable","acumin-pro","Helvetica Neue","Helvetica","Arial",sans-serif,"Helvetica Neue","Helvetica","Arial",sans-serif;
+    background-color: #e5e5e5;
+    float: left;
+    width: 23%;
+    padding: 1%;
+    font-size: 1rem;
+    font-variation-settings: "wght" 360;
+    line-height: 1.3;
+    margin-top: 7px;
+    height: 5rem;
+}
+.submit-button{
+    font-family: "Source Sans Variable","acumin-pro","Helvetica Neue","Helvetica","Arial",sans-serif,"Helvetica Neue","Helvetica","Arial",sans-serif;
+    background-color: #e5e5e5;
+    float: right;
+    width: 23%;
+    padding: 1%;
+    font-size: 1rem;
+    font-variation-settings: "wght" 360;
+    line-height: 1.3;
+    margin-top: 7px;
+    height: 5rem;
+}
+
+@media only screen and (max-width: 620px) {
+  /* For mobile phones: */
+  .form1, .form2, .form3, .submit-button, .info {
+    width: 100%;
+  }
+}
+
+.terms {
+    padding: 10px;
+    font-family: "Source Sans Variable","acumin-pro","Helvetica Neue","Helvetica","Arial",sans-serif,"Helvetica Neue","Helvetica","Arial",sans-serif;
+    background-color: #e5e5e5;
+    font-size: 1rem;
+    font-variation-settings: "wght" 360;
+    line-height: 1.3;
+}
+.bottom {
+    position: relative;
+    bottom: 0;
+}
